@@ -42,4 +42,4 @@ jobs:
         context: .
         platforms: linux/amd64
         push: true
-        tags: ghcr.io/com.bravecollective.bvg-backend:latest
+        tags: ghcr.io/com/bravecollective/bvg-backend:latest
