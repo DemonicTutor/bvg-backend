@@ -40,5 +40,6 @@ jobs:
       uses: docker/build-push-action@v3.2.0
       with:
         context: .
+        platforms: linux/amd64
         push: true
-        tags: com.bravecollective/bvg-backend:latest
+        tags: ghcr.io/${{ github.repository }}:latest
